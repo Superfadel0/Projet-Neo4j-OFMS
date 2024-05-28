@@ -25,11 +25,13 @@ Une fois l'installation effectué, vous pouvez suivre ces étapes pour créer vo
 Pour créer un projet neo4j vous devez d'abord cliquer sur : 
 - New
 - Ensuite **Create Project**
+
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/99d5d21a-d851-4238-a9ea-5f69f79ceab7)
 
 Vous allez être redirigé directement vers cette page :
+
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/41580665-db57-4571-9ee0-49ca15c3b41e)
-Pour ajouter une nouvelle base, il faut cliquez sur
+Pour ajouter une nouvelle base, il faut cliquez sur :
 - Add,
 - Ensuite : Local DBMS si vous voulez utiliser Neo4j localement
 - Cliquer sur Remote connection si vous préferez utiliser Aura DB
