@@ -18,9 +18,10 @@ Vous devez avoir la dernière version de Neo4j Desktop installée sur votre ordi
 
  Lien d'installation Neo4j Desktop : [Neo4j Desktop](https://neo4j.com/download/)
  Lien Neo4j Aura : [Aura](https://login.neo4j.com/u/login/identifier?state=hKFo2SBRZHhlUFQ5dXVyaWd4NkFwcVJYWnUtUm9TODZvYXNhbaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIHBuMFV1eFFhZjlhZ2docUE2R3puYkZOTXMzbTBlNXBSo2NpZNkgV1NMczYwNDdrT2pwVVNXODNnRFo0SnlZaElrNXpZVG8)
+ 
 3. **Démarrer avec Neo4j :**
-Une fois l'installation effectué, vous pouvez 
-![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/5f31ca56-2ec1-42b2-ba71-55cd004e9107)
+Une fois l'installation effectué, vous pouvez suivre ces étapes pour créer votre premier projet Neo4j
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/99d5d21a-d851-4238-a9ea-5f69f79ceab7)
 
 Structure du projet
 /data : Contient les fichiers CSV utilisés pour l'importation de données.
