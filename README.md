@@ -19,15 +19,21 @@ Vous devez avoir la dernière version de Neo4j Desktop installée sur votre ordi
  Lien d'installation Neo4j Desktop : [Neo4j Desktop](https://neo4j.com/download/)
  Lien Neo4j Aura : [Aura](https://login.neo4j.com/u/login/identifier?state=hKFo2SBRZHhlUFQ5dXVyaWd4NkFwcVJYWnUtUm9TODZvYXNhbaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIHBuMFV1eFFhZjlhZ2docUE2R3puYkZOTXMzbTBlNXBSo2NpZNkgV1NMczYwNDdrT2pwVVNXODNnRFo0SnlZaElrNXpZVG8)
  
-3. **Démarrer avec Neo4j :**
-Une fois l'installation effectué, vous pouvez suivre ces étapes pour créer votre premier projet Neo4j
+### Démarrer avec Neo4j :
+Une fois l'installation effectué, vous pouvez suivre ces étapes pour créer votre premier projet Neo4j:
+**1.Création de projet**
+Pour créer un projet neo4j vous devez d'abord cliquer sur : 
+- New
+- Ensuite **Create Project**
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/99d5d21a-d851-4238-a9ea-5f69f79ceab7)
 
-Structure du projet
-/data : Contient les fichiers CSV utilisés pour l'importation de données.
-/scripts : Scripts Cypher pour la création de noeuds, de relations et d'indices.
-/docs : Documentation du projet, y compris les spécifications et les manuels d'utilisation.
-Utilisation
+Vous allez être redirigé directement vers cette page :
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/41580665-db57-4571-9ee0-49ca15c3b41e)
+Pour ajouter une nouvelle base, il faut cliquez sur
+- Add,
+- Ensuite : Local DBMS si vous voulez utiliser Neo4j localement
+- Cliquer sur Remote connection si vous préferez utiliser Aura DB
+
 Pour importer les données et configurer la base de données, exécutez les scripts Cypher situés dans le dossier /scripts.
 
 Exemple de script
