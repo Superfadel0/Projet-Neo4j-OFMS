@@ -44,6 +44,10 @@ Dans un premier temps, nous allons nous intéresser au Neo4j browser.
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/59e2b4bb-78e1-47fa-8e79-20bdf5070934)
 
+
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/a052f452-fac9-4b7d-a889-eb8a84e4320e)
+
+
 Pour importer les données et configurer la base de données, exécutez les scripts Cypher situés dans le dossier /scripts.
 
 Exemple de script
