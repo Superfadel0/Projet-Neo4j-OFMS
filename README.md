@@ -36,6 +36,8 @@ Pour ajouter une nouvelle base, il faut cliquez sur :
 - Ensuite : Local DBMS si vous voulez utiliser Neo4j localement
 - Cliquer sur Remote connection si vous préferez utiliser Aura DB
 
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/c765d3e0-d47a-4422-bebe-db1e19faf99b)
+
 Pour importer les données et configurer la base de données, exécutez les scripts Cypher situés dans le dossier /scripts.
 
 Exemple de script
