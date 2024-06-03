@@ -38,6 +38,11 @@ Pour ajouter une nouvelle base, il faut cliquez sur :
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/c765d3e0-d47a-4422-bebe-db1e19faf99b)
 
+Cliquez sur start pour activer la base de données, ensuite sur la flêchette à côté du bouton ouvrir pour choisir si vous 
+voulez ourir : Neo4j browser, Neo4j bloom, Neo4j ETL Tool ou le terminal.
+Dans un premier temps, nous allons nous intéresser au Neo4j browser.
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/59e2b4bb-78e1-47fa-8e79-20bdf5070934)
+
 Pour importer les données et configurer la base de données, exécutez les scripts Cypher situés dans le dossier /scripts.
 
 Exemple de script
