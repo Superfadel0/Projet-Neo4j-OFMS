@@ -46,20 +46,31 @@ Dans un premier temps, nous allons nous intéresser au Neo4j browser.
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/a052f452-fac9-4b7d-a889-eb8a84e4320e)
 
 
-Pour importer les données et configurer la base de données, exécutez les scripts Cypher situés dans le dossier /scripts.
+On veut importer le fichier transaction_intouch dans neo4j. Pour ce faire, il faut créer les noeuds correspondants (sender et receiver) ansi que la relation qui les lie :
 
-Exemple de script
-cypher
-Copy code
-// Créer les noeuds Clients
-LOAD CSV FROM 'file:///data/clients.csv' AS line
-CREATE (:Client { name: line[0], id: line[1] });
 
-// Créer les noeuds Distributeurs
-LOAD CSV FROM 'file:///data/distributors.csv' AS line
-CREATE (:Distri { name: line[0], id: line[1] });
-Contribuer
-Les contributions à ce projet sont bienvenues. Veuillez consulter CONTRIBUTING.md pour plus de détails sur comment contribuer au projet.
+LOAD CSV WITH HEADERS FROM 'file:///transaction_intouch.csv' as row
+// Créer ou fusionner les nœuds de sender et receiver
 
-Licence
-Ce projet est distribué sous la Licence MIT. Voir le fichier LICENSE pour plus d'informations.
+// Creation noeud sender avec ses propriétés
+MERGE (sender:Sender {id: row.sender})
+  ON CREATE SET 
+  sender.sender = row.sender,
+  sender.commissions_paid = toInteger(row.COMMISSIONS_PAID),
+  sender.SENDER_USER_ID = row.SENDER_USER_ID
+
+
+// Creation du noeud receiver avec ses propriétés
+MERGE (receiver:Receiver {id: row.sim_intouch})
+  ON CREATE SET 
+  receiver.sim_intouch = row.sim_intouch,
+  receiver.receiver_domain_code = row.RECEIVER_DOMAIN_CODE, 
+  receiver.first_name = row.first_name
+
+// Création de la relation TRANSACTION entre les sender et les receiver
+MERGE (sender)-[:TRANSACTION {
+    date_transaction: row.date_transaction,
+    MNT_TRANSACTION: toInteger(row.MNT_TRANSACTION),
+    SERVICE_TYPE: row.SERVICE_TYPE,
+    TRANSACTION_TAG: row.TRANSACTION_TAG
+}]->(receiver)
