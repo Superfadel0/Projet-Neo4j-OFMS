@@ -49,7 +49,7 @@ Dans un premier temps, nous allons nous intéresser au Neo4j browser.
 On veut importer le fichier transaction_intouch dans neo4j. Pour ce faire, il faut créer les noeuds correspondants (sender et receiver) ansi que la relation qui les lie :
 
 
-** LOAD CSV WITH HEADERS FROM 'file:///transaction_intouch.csv' as row
+```LOAD CSV WITH HEADERS FROM 'file:///transaction_intouch.csv' as row
 // Créer ou fusionner les nœuds de sender et receiver
 
 // Creation noeud sender avec ses propriétés
@@ -73,4 +73,4 @@ MERGE (sender)-[:TRANSACTION {
     MNT_TRANSACTION: toInteger(row.MNT_TRANSACTION),
     SERVICE_TYPE: row.SERVICE_TYPE,
     TRANSACTION_TAG: row.TRANSACTION_TAG
-}]->(receiver)**
+}]->(receiver)```
