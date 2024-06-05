@@ -74,7 +74,8 @@ MERGE (sender)-[:TRANSACTION {
 
 Si vous avez une grande quantité de données, je vous conseillerai d'ajouter des index pour optimiser le temps d'exécution :
 
-```CREATE INDEX FOR (s:Sender) ON (s.id);
+```
+CREATE INDEX FOR (s:Sender) ON (s.id);
 CREATE INDEX FOR (r:Receiver) ON (r.id);
 ```
 
