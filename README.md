@@ -37,6 +37,7 @@ Pour ajouter une nouvelle base, il faut cliquez sur :
 
 Cliquez sur start pour activer la base de données, ensuite sur la flêchette à côté du bouton ouvrir pour choisir si vous 
 voulez ourir : Neo4j browser, Neo4j bloom, Neo4j ETL Tool ou le terminal.
+
 Dans un premier temps, nous allons nous intéresser au Neo4j browser.
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/59e2b4bb-78e1-47fa-8e79-20bdf5070934)
