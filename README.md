@@ -81,3 +81,18 @@ CREATE INDEX FOR (r:Receiver) ON (r.id);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+https://neo4j.com/docs/bloom-user-guide/current/_images/image20.png
+
+
+
