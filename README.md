@@ -73,4 +73,11 @@ MERGE (sender)-[:TRANSACTION {
     MNT_TRANSACTION: toInteger(row.MNT_TRANSACTION),
     SERVICE_TYPE: row.SERVICE_TYPE,
     TRANSACTION_TAG: row.TRANSACTION_TAG
-}]->(receiver)```
+}]->(receiver)
+```
+
+Si vous avez une grande quantité de données, je vous conseillerai d'ajouter des index :
+
+```CREATE INDEX FOR (s:Sender) ON (s.id);
+CREATE INDEX FOR (r:Receiver) ON (r.id);
+```
