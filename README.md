@@ -92,7 +92,7 @@ CREATE INDEX FOR (r:Receiver) ON (r.id);
 
 
 
-https://neo4j.com/docs/bloom-user-guide/current/_images/image20.png
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/a7d1b341-bcf6-4461-bc35-0c5e3b987345)
 
 
 
