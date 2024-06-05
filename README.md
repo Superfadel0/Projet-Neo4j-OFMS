@@ -42,10 +42,6 @@ Dans un premier temps, nous allons nous intéresser au Neo4j browser.
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/59e2b4bb-78e1-47fa-8e79-20bdf5070934)
 
-
-![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/a052f452-fac9-4b7d-a889-eb8a84e4320e)
-
-
 On veut importer le fichier transaction_intouch dans neo4j. Pour ce faire, il faut créer les noeuds correspondants (sender et receiver) ansi que la relation qui les lie :
 
 
