@@ -84,19 +84,19 @@ CREATE INDEX FOR (r:Receiver) ON (r.id);
 
 Neo4j Bloom est une application de visualisation graphique conçue pour faciliter l'exploration intuitive et la compréhension des graphes stockés dans Neo4j. Bloom permet aux utilisateurs, qu'ils soient analystes, data scientists ou développeurs, de visualiser les données de manière interactive sans nécessiter de compétences approfondies en langage de requête graphique. Voici quelques-unes de ses principales caractéristiques :
 
-  ## Visualisation Intuitive : 
+  ### Visualisation Intuitive : 
   Bloom fournit une représentation visuelle des nœuds, des relations et des propriétés qui aide à comprendre les interconnexions complexes au sein des données.
 
-  ## Recherche par Perspective : 
+  ### Recherche par Perspective : 
   Les utilisateurs peuvent créer et utiliser des "perspectives" qui configurent comment les différents types de nœuds et de relations sont visualisés et interagissent. Cela permet de personnaliser la        vue du graphe selon les besoins spécifiques de l'utilisateur ou du projet.
 
-  ## Requêtes Naturelles : 
+  ### Requêtes Naturelles : 
   Avec le langage de recherche basé sur le langage naturel, les utilisateurs peuvent explorer le graphe en posant des questions simples en anglais, sans nécessiter la maîtrise du Cypher.
 
-  ## Outils de Collaboration : 
+  ### Outils de Collaboration : 
   Bloom permet de partager des visualisations et des découvertes au sein d'une équipe, facilitant ainsi la collaboration sur des projets basés sur des graphes.
 
-  ## Interactivité : 
+  ### Interactivité : 
   Les utilisateurs peuvent zoomer, faire pivoter, et explorer les détails des nœuds et des relations, ce qui rend l'analyse des graphes à la fois engageante et détaillée.
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/a7d1b341-bcf6-4461-bc35-0c5e3b987345)
 
