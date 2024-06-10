@@ -165,9 +165,19 @@ Concernant les algorithmes de centralité disponibles dans Bloom :
 Cet algorithme évalue l'importance d'un nœud en comptant les connexions entrantes, sortantes ou les deux, afin d'identifier les nœuds les plus centraux dans un réseau.
 ### Betweenness Centrality : 
 Connu sous le nom de Betweenness Centrality, cet outil identifie les nœuds qui agissent comme des ponts sur les chemins les plus courts à travers le réseau, connectant ainsi différentes parties d'un graphe.
-### Eigenvector Centrality: 
+### Eigenvector Centrality : 
 Cette méthode évalue l'influence transitive des nœuds, c'est-à-dire que pour qu'un nœud soit jugé influent, il doit être connecté à d'autres nœuds qui sont eux-mêmes bien connectés.
-### PageRank: 
+### PageRank : 
 Cette approche évalue l'importance d'un nœud basée sur le nombre de liens entrants et l'influence des nœuds qui établissent ces liens.
 Chacun de ces algorithmes offre une perspective unique sur la structure et la dynamique des réseaux, permettant ainsi une analyse approfondie et ciblée en fonction des besoins spécifiques de votre projet.
+
+### Weakly connected components :
+L'algorithme Weakly connected components identifie les parties d'un graphe qui ne sont pas reliées aux autres. Cet outil est pratique pour vérifier si toutes les parties de votre réseau sont interconnectées ou pour localiser les zones fragiles dans des structures comme les chaînes d'approvisionnement.
+
+
+
+
+
+
+
 
