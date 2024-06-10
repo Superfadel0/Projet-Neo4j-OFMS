@@ -80,6 +80,10 @@ CREATE INDEX FOR (s:Sender) ON (s.id);
 CREATE INDEX FOR (r:Receiver) ON (r.id);
 ```
 
+RESULTAT :
+
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/77de6148-0efc-46c9-b723-f52a6558d66b)
+
 
 # UTILISATION DE NEO4J BLOOM
 
