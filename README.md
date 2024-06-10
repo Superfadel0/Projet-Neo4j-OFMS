@@ -186,6 +186,18 @@ L'algorithme Weakly connected components identifie les parties d'un graphe qui n
 
 
 
+# Gestion des erreurs
+
+![Capture d'écran 2024-05-14 092124](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/051a06e3-6abd-4c72-8a89-d93b7b69647c)
+
+
+Cette erreur indique que la procédure n'est pas spécifiée dans la base de données. Pour la résoudre, il faut :
+
+1. Cliquer sur la base de donnée en question
+2. Ensuite sur Plugins, situé à droite
+3. Enfin sur Install et Restart
+
+Effectué les mêmes étapes si vous rencontrez des erreurs en lien avec Graph Data Science
 
 
 
