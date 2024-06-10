@@ -100,7 +100,8 @@ Neo4j Bloom est une application de visualisation graphique conçue pour facilite
   Les utilisateurs peuvent zoomer, faire pivoter, et explorer les détails des nœuds et des relations, ce qui rend l'analyse des graphes à la fois engageante et détaillée.
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/a7d1b341-bcf6-4461-bc35-0c5e3b987345)
 
-Dans cet exemple, j'ai essayé d'afficher les transactions entre les noeuds Sender et Receiver
+
+
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/1d0f820a-d544-4de3-9f86-0119ac6c0fe9)
 
