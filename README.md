@@ -119,3 +119,12 @@ Si vous sélectionnez une étiquette de nœud, par exemple, Bloom vous permet de
 
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/f9af0737-cf37-44a2-b091-a7b3e2955a0f)
+
+## Slicer
+
+Le Slicer est une fonctionnalité qui vous permet de modifier rapidement et de manière interactive ce qui est visible dans votre scène. Il vous permet de démontrer la différence dans les valeurs numériques des propriétés via une chronologie. Vous pouvez le faire en faisant défiler manuellement ou en utilisant la fonction de lecture.
+
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/0c74ef90-e5b1-4679-8ce0-50bef93ddb22)
+
+
+
