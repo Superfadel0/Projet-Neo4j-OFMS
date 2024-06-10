@@ -84,6 +84,10 @@ RESULTAT :
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/77de6148-0efc-46c9-b723-f52a6558d66b)
 
+VISUALISATION :
+
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/04633c5e-8af1-46fb-8820-b1f7566a5eea)
+
 
 # UTILISATION DE NEO4J BLOOM
 
