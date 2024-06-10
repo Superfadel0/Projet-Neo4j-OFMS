@@ -139,13 +139,13 @@ Cette partie est pour moi la plus exaltante dans bloom. Les algorithmes de Graph
 
 Les algorithmes que Bloom propose se répartissent en deux grandes catégories : centralité et détection de communauté. Les algorithmes de centralité évaluent l'importance des nœuds dans un réseau, en mettant en lumière leur rôle. Un nœud peut être jugé important s'il possède de nombreuses connexions, s'il est lié transitivement à d'autres nœuds clés, s'il est accessible en peu de sauts, ou s'il se trouve sur le chemin le plus court entre plusieurs paires de nœuds. Voici les algorithmes de centralité disponibles dans Bloom :
 
-*Betweenness Centrality
+* Betweenness Centrality
 
-*Degree Centrality
+* Degree Centrality
 
-*Eigenvector Centrality
+* Eigenvector Centrality
 
-*PageRank
+* PageRank
 
 Les algorithmes de détection de communauté dans Bloom permettent de trouver des groupes ou des clusters au sein de vos données. Cela peut vous aider à comprendre comment les différents éléments de vos données sont connectés ou isolés, ce qui est très utile dans de nombreux domaines, comme les réseaux sociaux ou l'apprentissage automatique. Ces outils identifient les sous-groupes qui partagent des caractéristiques communes ou qui sont plus fréquemment connectés entre eux.
 
