@@ -147,7 +147,12 @@ Les algorithmes que Bloom propose se répartissent en deux grandes catégories :
 
 * PageRank
 
-Les algorithmes de détection de communauté dans Bloom permettent de trouver des groupes ou des clusters au sein de vos données. Cela peut vous aider à comprendre comment les différents éléments de vos données sont connectés ou isolés, ce qui est très utile dans de nombreux domaines, comme les réseaux sociaux ou l'apprentissage automatique. Ces outils identifient les sous-groupes qui partagent des caractéristiques communes ou qui sont plus fréquemment connectés entre eux.
+Les algorithmes de détection de communauté dans Bloom permettent de trouver des groupes ou des clusters au sein de vos données. Cela peut vous aider à comprendre comment les différents éléments de vos données sont connectés ou isolés, ce qui est très utile dans de nombreux domaines, comme les réseaux sociaux ou l'apprentissage automatique. Ces outils identifient les sous-groupes qui partagent des caractéristiques communes ou qui sont plus fréquemment connectés entre eux. Les algorithmes de détection de fraude disponible dans Neo4j bloom sont :
+* Louvain
+
+* Label propagation
+
+* Weakly connected components
 
 ### Louvain : 
 Cet algorithme cherche à regrouper des nœuds étroitement liés dans un réseau plus large, ce qui est bénéfique, par exemple, pour des recommandations de produits.
