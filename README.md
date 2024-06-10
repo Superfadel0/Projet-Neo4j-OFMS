@@ -105,7 +105,14 @@ Neo4j Bloom est une application de visualisation graphique conçue pour facilite
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/1d0f820a-d544-4de3-9f86-0119ac6c0fe9)
 
-En rouge, tu peux demander à Neo4j de t'afficher n'importe quels noeuds/relations ou même une liaison entre noeuds à travers une relation
-Dans notre cas, je lui ai demander de m'afficher toutes les transactions qui sont effectuées entre Sender et Receiver
 
 
+Pour créer des modèles de graphe, vous pouvez utiliser les suggestions proactives de Bloom dans Neo4j. Cette fonction vous aide à choisir des éléments de votre schéma, comme les types de relations ou les connexions entre catégories. Dans la barre de recherche de Bloom, vous trouverez des options pour démarrer vos recherches, choisir des étiquettes de nœuds, ou sélectionner des relations et filtrer par des critères spécifiques.
+
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/46674a5a-0d95-49de-8771-2b6a95314d9f)
+
+
+Si vous sélectionnez une étiquette de nœud, par exemple, Bloom vous permet de choisir si vous souhaitez filtrer davantage le nœud de départ en fonction de ses relations ou si vous souhaitez affiner par propriétés et/ou valeurs de propriété. Bloom vous donne un indice sur le type de données de la valeur de la propriété directement dans la barre de recherche.
+
+
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/f9af0737-cf37-44a2-b091-a7b3e2955a0f)
