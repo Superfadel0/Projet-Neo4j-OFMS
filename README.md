@@ -36,6 +36,9 @@ Pour cela :
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/c765d3e0-d47a-4422-bebe-db1e19faf99b)
 
 Activez la base de données en cliquant sur "start", puis utilisez le menu à côté du bouton "ouvrir" pour choisir entre Neo4j Browser, Neo4j Bloom, Neo4j ETL Tool ou le terminal.
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/77f9f9e7-9bd4-4060-81f3-f36ceb057f24)
+
+
 Dans un premier temps, nous allons nous intéresser au Neo4j browser.
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/59e2b4bb-78e1-47fa-8e79-20bdf5070934)
