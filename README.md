@@ -127,4 +127,9 @@ Le Slicer est une fonctionnalité qui vous permet de modifier rapidement et de m
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/0c74ef90-e5b1-4679-8ce0-50bef93ddb22)
 
 
+Dans l'exemple ci-dessous, j'essaie d'afficher les transactions comprises entre 203 et 393 FCFA. Elles sont au nombre de 8.
+
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/7cf5ae96-7029-48c2-a1a1-061a6ecc5fa5)
+
+
 
