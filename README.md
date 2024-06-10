@@ -131,5 +131,38 @@ Dans l'exemple ci-dessous, j'essaie d'afficher les transactions comprises entre 
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/7cf5ae96-7029-48c2-a1a1-061a6ecc5fa5)
 
+## Graph Data Science integration
+Cette partie est pour moi la plus exaltante dans bloom. Les algorithmes de Graph Data Science peuvent vous aider à trouver de nouvelles informations dans vos données, à la fois sur les nœuds eux-mêmes et sur la façon dont ils sont connectés.
 
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/b66b4b68-6128-456a-8b81-55b598b5b17e)
+
+
+Les algorithmes que Bloom propose se répartissent en deux grandes catégories : centralité et détection de communauté. Les algorithmes de centralité évaluent l'importance des nœuds dans un réseau, en mettant en lumière leur rôle. Un nœud peut être jugé important s'il possède de nombreuses connexions, s'il est lié transitivement à d'autres nœuds clés, s'il est accessible en peu de sauts, ou s'il se trouve sur le chemin le plus court entre plusieurs paires de nœuds. Voici les algorithmes de centralité disponibles dans Bloom :
+
+*Betweenness Centrality
+
+*Degree Centrality
+
+*Eigenvector Centrality
+
+*PageRank
+
+Les algorithmes de détection de communauté dans Bloom permettent de trouver des groupes ou des clusters au sein de vos données. Cela peut vous aider à comprendre comment les différents éléments de vos données sont connectés ou isolés, ce qui est très utile dans de nombreux domaines, comme les réseaux sociaux ou l'apprentissage automatique. Ces outils identifient les sous-groupes qui partagent des caractéristiques communes ou qui sont plus fréquemment connectés entre eux.
+
+### Louvain : 
+Cet algorithme cherche à regrouper des nœuds étroitement liés dans un réseau plus large, ce qui est bénéfique, par exemple, pour des recommandations de produits.
+### Label Propagation :
+Cette méthode identifie des communautés en permettant une certaine supervision et contrôle sur les résultats, ce qui est avantageux quand vous disposez déjà de certaines connaissances sur la structure des données.
+Composants faiblement connectés: Cet algorithme trouve des sous-graphes isolés qui ne sont pas accessibles depuis d'autres parties du réseau, utile pour vérifier la connectivité globale du réseau ou identifier des points faibles dans des chaînes d'approvisionnement.
+Concernant les algorithmes de centralité disponibles dans Bloom :
+
+### Centralité des degrés :
+Cet algorithme évalue l'importance d'un nœud en comptant les connexions entrantes, sortantes ou les deux, afin d'identifier les nœuds les plus centraux dans un réseau.
+### Betweenness Centrality : 
+Connu sous le nom de Betweenness Centrality, cet outil identifie les nœuds qui agissent comme des ponts sur les chemins les plus courts à travers le réseau, connectant ainsi différentes parties d'un graphe.
+### Eigenvector Centrality: 
+Cette méthode évalue l'influence transitive des nœuds, c'est-à-dire que pour qu'un nœud soit jugé influent, il doit être connecté à d'autres nœuds qui sont eux-mêmes bien connectés.
+### PageRank: 
+Cette approche évalue l'importance d'un nœud basée sur le nombre de liens entrants et l'influence des nœuds qui établissent ces liens.
+Chacun de ces algorithmes offre une perspective unique sur la structure et la dynamique des réseaux, permettant ainsi une analyse approfondie et ciblée en fonction des besoins spécifiques de votre projet.
 
