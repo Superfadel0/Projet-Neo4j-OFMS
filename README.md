@@ -197,6 +197,9 @@ Cette erreur indique que la procédure n'est pas spécifiée dans la base de don
 2. Ensuite sur Plugins, situé à droite
 3. Enfin sur Install et Restart
 
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/d088d6bf-7402-4958-83ab-d5eb2c569447)
+
+
 Effectué les mêmes étapes si vous rencontrez des erreurs en lien avec Graph Data Science
 
 
