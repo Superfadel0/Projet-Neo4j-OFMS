@@ -21,23 +21,21 @@ Vous pouvez installer la dernière version de Neo4j Desktop sur votre ordinateur
 ### Démarrer avec Neo4j :
 Une fois l’installation effectuée, suivez ces étapes pour créer votre premier projet Neo4j :
 **1.Création du projet :**
-Cliquez sur “New”, puis “Create Project”.
+Créez un nouveau projet en cliquant sur "New", puis "Create Project".
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/99d5d21a-d851-4238-a9ea-5f69f79ceab7)
 
-Vous serez redirigé vers cette page où vous pourrez ajouter une base de données :
-
+Vous serez dirigé vers une page où vous pourrez ajouter une base de données. 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/41580665-db57-4571-9ee0-49ca15c3b41e)
-Pour ajouter une nouvelle base, il faut cliquez sur :
-- Add,
-- Ensuite : Local DBMS si vous voulez utiliser Neo4j localement
-- Cliquer sur Remote connection si vous préferez utiliser Aura DB
+
+Pour cela :
+* Cliquez sur "Add".
+* Choisissez "Local DBMS" pour utiliser Neo4j localement ou "Remote connection" pour utiliser Aura DB.
+
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/c765d3e0-d47a-4422-bebe-db1e19faf99b)
 
-Cliquez sur start pour activer la base de données, ensuite sur la flêchette à côté du bouton ouvrir pour choisir si vous 
-voulez ourir : Neo4j browser, Neo4j bloom, Neo4j ETL Tool ou le terminal.
-
+Activez la base de données en cliquant sur "start", puis utilisez le menu à côté du bouton "ouvrir" pour choisir entre Neo4j Browser, Neo4j Bloom, Neo4j ETL Tool ou le terminal.
 Dans un premier temps, nous allons nous intéresser au Neo4j browser.
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/59e2b4bb-78e1-47fa-8e79-20bdf5070934)
