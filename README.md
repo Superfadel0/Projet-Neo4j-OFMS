@@ -107,6 +107,9 @@ Neo4j Bloom est une application de visualisation graphique conçue pour facilite
 
 
 
+## Recherche de motifs de graphe
+
+
 Pour créer des modèles de graphe, vous pouvez utiliser les suggestions proactives de Bloom dans Neo4j. Cette fonction vous aide à choisir des éléments de votre schéma, comme les types de relations ou les connexions entre catégories. Dans la barre de recherche de Bloom, vous trouverez des options pour démarrer vos recherches, choisir des étiquettes de nœuds, ou sélectionner des relations et filtrer par des critères spécifiques.
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/46674a5a-0d95-49de-8771-2b6a95314d9f)
