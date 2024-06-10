@@ -195,7 +195,8 @@ Cette erreur indique que la procédure n'est pas spécifiée dans la base de don
 
 1. Cliquer sur la base de donnée en question
 2. Ensuite sur Plugins, situé à droite
-3. Enfin sur Install et Restart
+3. Cliquer sur APOC
+4. Enfin sur Install et Restart
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/d088d6bf-7402-4958-83ab-d5eb2c569447)
 
