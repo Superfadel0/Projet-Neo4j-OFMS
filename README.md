@@ -203,6 +203,13 @@ Cette erreur indique que la procédure n'est pas spécifiée dans la base de don
 
 Effectué les mêmes étapes si vous rencontrez des erreurs en lien avec Graph Data Science
 
+Dans le cas où vous avez cette erreur :
+![Capture d'écran 2024-05-10 083856](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/c6aeacd1-657b-49df-bd41-cab8364325ee)
+
+Il s'agit d'une erreur de configuration. Ouvrez le fichier neo4j.conf dans le repertoire C:/Users/User/.Neo4jDesktop/relate-data/dbmss/conf puis enlever le # decommenter dbms.security.allow_csv_import_from_file_urls=true
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/f3436f2e-4c03-4239-93db-a0b0fb4d1adf)
+
+Vous n'aurez normalement plus cette erreur dès lors que vous rechargiez neo4j
 
 
 
