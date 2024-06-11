@@ -130,6 +130,9 @@ Si vous sélectionnez une étiquette de nœud, par exemple, Bloom vous permet de
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/f9af0737-cf37-44a2-b091-a7b3e2955a0f)
 
+https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/eec45bc2-4500-42b3-a81b-1160318d3eb1
+
+
 ## Slicer
 
 Le Slicer est une fonctionnalité qui vous permet de modifier rapidement et de manière interactive ce qui est visible dans votre scène. Il vous permet de démontrer la différence dans les valeurs numériques des propriétés via une chronologie. Vous pouvez le faire en faisant défiler manuellement ou en utilisant la fonction de lecture.
@@ -211,10 +214,6 @@ Il s'agit d'une erreur de configuration. Ouvrez le fichier neo4j.conf dans le re
 
 Vous n'aurez normalement plus cette erreur lorsque vous rechargez neo4j
 
-
-
-
-https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/eec45bc2-4500-42b3-a81b-1160318d3eb1
 
 
 
