@@ -169,7 +169,7 @@ Cette méthode identifie des communautés en permettant une certaine supervision
 Composants faiblement connectés: Cet algorithme trouve des sous-graphes isolés qui ne sont pas accessibles depuis d'autres parties du réseau, utile pour vérifier la connectivité globale du réseau ou identifier des points faibles dans des chaînes d'approvisionnement.
 Concernant les algorithmes de centralité disponibles dans Bloom :
 
-### Centralité des degrés :
+### Degree Centrality :
 Cet algorithme évalue l'importance d'un nœud en comptant les connexions entrantes, sortantes ou les deux, afin d'identifier les nœuds les plus centraux dans un réseau.
 ### Betweenness Centrality : 
 Connu sous le nom de Betweenness Centrality, cet outil identifie les nœuds qui agissent comme des ponts sur les chemins les plus courts à travers le réseau, connectant ainsi différentes parties d'un graphe.
