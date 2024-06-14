@@ -133,11 +133,11 @@ https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/eec45bc2-4500-
 ## Slicer
 
 Le Slicer est une fonctionnalité qui vous permet de modifier rapidement et de manière interactive ce qui est visible dans votre scène. Il vous permet de démontrer la différence dans les valeurs numériques des propriétés via une chronologie. Vous pouvez le faire en faisant défiler manuellement ou en utilisant la fonction de lecture.
-![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/7cf5ae96-7029-48c2-a1a1-061a6ecc5fa5)
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/0c74ef90-e5b1-4679-8ce0-50bef93ddb22)
 
 Dans l'exemple ci-dessous, j'essaie d'afficher les transactions comprises entre 203 et 393 FCFA. Elles sont au nombre de 8.
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/7cf5ae96-7029-48c2-a1a1-061a6ecc5fa5)
 
-![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/0c74ef90-e5b1-4679-8ce0-50bef93ddb22)
 
 ## Graph Data Science integration
 Cette partie est pour moi la plus exaltante dans bloom. Les algorithmes de Graph Data Science peuvent vous aider à trouver de nouvelles informations dans vos données, à la fois sur les nœuds eux-mêmes et sur la façon dont ils sont connectés.
