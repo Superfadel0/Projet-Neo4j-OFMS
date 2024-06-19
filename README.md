@@ -44,7 +44,15 @@ Dans un premier temps, nous allons nous intéresser au Neo4j browser.
 
 ![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/59e2b4bb-78e1-47fa-8e79-20bdf5070934)
 
-On veut importer le fichier transaction_intouch dans neo4j. Pour ce faire, il faut créer les noeuds correspondants (sender et receiver) ansi que la relation qui les lie :
+On veut importer le fichier transaction_intouch dans neo4j. Pour ce faire, il faut :
+
+- Placer le fichier .csv dans le repertoire C:/Users/fallo/.Neo4jDesktop/relate-data/dbmss/path/to/import
+
+![image](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/080c7c80-8550-4570-8df5-e9747e523a95)
+
+
+
+- Créer les noeuds correspondants (sender et receiver) ansi que la relation qui les lie :
 
 
 ```LOAD CSV WITH HEADERS FROM 'file:///transaction_intouch.csv' as row
