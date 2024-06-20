@@ -2,6 +2,18 @@
 
 Ce projet utilise Neo4j pour créer une base de données graphique qui modélise des transactions entre clients et distributeurs. Actuellement, le modèle se base sur les transactions effectuées par les clients et les distributeurs.
 
+## Table des matières
+
+1. [Configuration](#configuration)
+2. [Prérequis](#prérequis)
+3. [Installation](#installation)
+4. [Démarrer avec Neo4j](#démarrer-avec-neo4j)
+5. [Utilisation](#utilisation)
+6. [Analyse de données avec Neo4j](#analyse-de-données-avec-neo4j)
+7. [Gestion des erreurs](#gestion-des-erreurs)
+8. [Zoom sur le cercle client](#zoom-sur-le-cercle-client)
+
+
 ## Configuration
 
 Ce projet est construit avec Neo4j et utilise le langage Cypher pour manipuler les données. Avant de continuer, assurez-vous que Neo4j est correctement installé et configuré sur votre système.
