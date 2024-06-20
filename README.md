@@ -1,4 +1,4 @@
-![graph](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/e0886775-dea8-4072-ae39-4a4052c8f6b5)# Projet Neo4j-OFMS
+# Projet Neo4j-OFMS
 
 Ce projet utilise Neo4j pour créer une base de données graphique qui modélise des transactions entre clients et distributeurs. Actuellement, le modèle se base sur les transactions effectuées par les clients et les distributeurs.
 
@@ -217,3 +217,6 @@ Il s'agit d'une erreur de configuration. Ouvrez le fichier neo4j.conf dans le re
 
 Vous n'aurez normalement plus cette erreur lorsque vous rechargez neo4j
 
+### Zoom sur le cercle client - Clients extrêmement risqués dans la période du 01/01/2024
+
+![graph](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/e0886775-dea8-4072-ae39-4a4052c8f6b5)
