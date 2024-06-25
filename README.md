@@ -219,4 +219,4 @@ Vous n'aurez normalement plus cette erreur lorsque vous rechargez neo4j
 
 ### Zoom sur le cercle client - Clients extrêmement risqués dans la période du 01/01/2024
 
-![graph](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/624c2231-7a67-4805-b30d-7841e2147041)
+![graph](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/1f682870-88d4-48f3-aa49-b880ef9c640e)
