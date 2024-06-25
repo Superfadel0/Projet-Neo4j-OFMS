@@ -217,6 +217,6 @@ Il s'agit d'une erreur de configuration. Ouvrez le fichier neo4j.conf dans le re
 
 Vous n'aurez normalement plus cette erreur lorsque vous rechargez neo4j
 
-### Zoom sur le cercle client - Clients extrêmement risqués dans la période du 01/01/2024
+### Zoom sur le cercle client 
 
 ![graph](https://github.com/Superfadel0/Projet-Neo4j-OFMS/assets/126486272/1f682870-88d4-48f3-aa49-b880ef9c640e)
